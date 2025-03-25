@@ -1,0 +1,3 @@
+C:/Users/Legion/Documents/ACE_3/SEM 2/Algoritmi Paraleli/test_pthreads/cmake-build-debug/CMakeFiles/test_pthreads.dir
+C:/Users/Legion/Documents/ACE_3/SEM 2/Algoritmi Paraleli/test_pthreads/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Legion/Documents/ACE_3/SEM 2/Algoritmi Paraleli/test_pthreads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
