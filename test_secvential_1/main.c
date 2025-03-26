@@ -9,7 +9,7 @@ int main() {
     mpz_t d, n;
     mpz_inits(d, n, NULL);
 
-    // Large RSA private key and modulus
+    
     mpz_set_str(d, "987654321987654321987654321987654321987654321987654321", 10);
     mpz_set_str(n, "999999999999999999999999999999999999999999999999999999999999999999999999", 10);
 
@@ -24,7 +24,7 @@ int main() {
         snprintf(message, sizeof(message), "%d", i + 1000000);
         mpz_set_str(ciphertext, message, 10);
 
-        // Heavy decryption repeated many times
+        
         for (int j = 0; j < REPEAT_DECRYPTION; j++) {
             mpz_powm(plaintext, ciphertext, d, n);
         }
