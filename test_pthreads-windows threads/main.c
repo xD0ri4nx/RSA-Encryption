@@ -5,7 +5,7 @@
 
 #define NUM_MESSAGES 10000
 #define REPEAT_DECRYPTION 10000
-#define NUM_THREADS 8 // Adjust based on your CPU cores
+#define NUM_THREADS 8 
 
 typedef struct {
     int id;
@@ -75,7 +75,7 @@ int main() {
 
 #define NUM_MESSAGES 10000
 #define REPEAT_DECRYPTION 10000
-#define NUM_THREADS 8 // Adjust based on your CPU cores
+#define NUM_THREADS 8 
 
 typedef struct {
     int id;
